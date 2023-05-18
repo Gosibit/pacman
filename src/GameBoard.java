@@ -181,4 +181,8 @@ public class GameBoard extends JPanel{
     public JLabel getScoreCounterView() {
         return scoreCounterView;
     }
+
+    public GameOverView getGameOverView() {
+        return gameOverView;
+    }
 }

@@ -1,5 +1,4 @@
 import java.awt.*;
-import java.util.Collection;
 import java.util.Random;
 
 public class PacmanModel {
@@ -107,8 +106,8 @@ public class PacmanModel {
                 PowerUp.getPowerUpMap().remove(position);
                 poweredUpSecondsLeft = 8;
                 for(Opponent o:Opponent.getOpponents().values()){
-                    o.getModel().setEatable(true);
-                    o.getView().setColor(Color.blue);
+                    if(o!=null)o.getModel().setEatable(true);
+                    if(o!=null)o.getView().setColor(Color.blue);
                 }
 
             }

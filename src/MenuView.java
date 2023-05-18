@@ -6,6 +6,7 @@ import java.awt.event.KeyEvent;
 public class MenuView extends JPanel {
 
     HighScoresView hsv;
+    GameOverView gov;
     MenuView(MyFrame frame){
 
         JPanel buttonsPanel = new JPanel();
@@ -32,6 +33,7 @@ public class MenuView extends JPanel {
                         if (e.isControlDown() && e.isShiftDown() && e.getKeyCode() == KeyEvent.VK_Q) {
                           setVisible(true);
                           if(hsv!=null)hsv.setVisible(false);
+                          if(gov!=null)gov.setVisible(false);
                         }
                         return false;
                     }
@@ -51,6 +53,8 @@ public class MenuView extends JPanel {
 
                 gameBoard.grabFocus();
 
+                gov = gameBoard.getGameOverView();
+
                 ThreadsInitiator threadsInitiator = new ThreadsInitiator(gameBoard,pacman);
                 threadsInitiator.startThreads();
             }
@@ -66,7 +70,6 @@ public class MenuView extends JPanel {
             frame.getContentPane().add(hsv);
         });
         exitButton.addActionListener(e -> System.exit(1));
-
 
         add(newGameButton);
         add(highScoresButton);

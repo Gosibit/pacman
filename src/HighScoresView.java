@@ -1,7 +1,5 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -47,24 +45,27 @@ public class HighScoresView extends JPanel {
         try  {
             BufferedReader reader = new BufferedReader(new FileReader("scores.txt"));
             String line = reader.readLine();
-            String[] parts = line.split(";");
-            for (String part : parts) {
-                String[] scoreData = part.split(":");
-                if (scoreData.length == 2) {
-                    String playerName = scoreData[0];
-                    int score = Integer.parseInt(scoreData[1]);
-                    PlayerScore playerScore = new PlayerScore(playerName, score);
-                    scores.add(playerScore);
-                }
-            }
-
-            Collections.sort(scores);
 
             listModel = new DefaultListModel<>();
-            for (PlayerScore score : scores) {
-                listModel.addElement(score.getPlayerName() + ": " + score.getScore());
-            }
 
+            if(line!=null) {
+                String[] parts = line.split(";");
+                for (String part : parts) {
+                    String[] scoreData = part.split(":");
+                    if (scoreData.length == 2) {
+                        String playerName = scoreData[0];
+                        int score = Integer.parseInt(scoreData[1]);
+                        PlayerScore playerScore = new PlayerScore(playerName, score);
+                        scores.add(playerScore);
+                    }
+                }
+
+                Collections.sort(scores);
+
+                for (PlayerScore score : scores) {
+                    listModel.addElement(score.getPlayerName() + ": " + score.getScore());
+                }
+            }
         }
 
         catch (IOException e) {

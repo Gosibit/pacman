@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a370f085-c4b4-47e5-af21-37a65623dbb3" name="Changes" comment="" />
+    <list default="true" id="a370f085-c4b4-47e5-af21-37a65623dbb3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GUI_DZ_2223L_PRO2_GR17c_s27507_INTELLIJ/Collision$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GUI_DZ_2223L_PRO2_GR17c_s27507_INTELLIJ/Collision.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GUI_DZ_2223L_PRO2_GR17c_s27507_INTELLIJ/Collision.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GUI_DZ_2223L_PRO2_GR17c_s27507_INTELLIJ/GameBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GUI_DZ_2223L_PRO2_GR17c_s27507_INTELLIJ/GameBoard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GUI_DZ_2223L_PRO2_GR17c_s27507_INTELLIJ/GameBoardModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GUI_DZ_2223L_PRO2_GR17c_s27507_INTELLIJ/GameBoardModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GUI_DZ_2223L_PRO2_GR17c_s27507_INTELLIJ/GameBoardView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GUI_DZ_2223L_PRO2_GR17c_s27507_INTELLIJ/GameBoardView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GUI_DZ_2223L_PRO2_GR17c_s27507_INTELLIJ/HighScoresView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GUI_DZ_2223L_PRO2_GR17c_s27507_INTELLIJ/HighScoresView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GUI_DZ_2223L_PRO2_GR17c_s27507_INTELLIJ/MenuView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GUI_DZ_2223L_PRO2_GR17c_s27507_INTELLIJ/MenuView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GUI_DZ_2223L_PRO2_GR17c_s27507_INTELLIJ/MenuView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GUI_DZ_2223L_PRO2_GR17c_s27507_INTELLIJ/MenuView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GUI_DZ_2223L_PRO2_GR17c_s27507_INTELLIJ/PacmanModel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GUI_DZ_2223L_PRO2_GR17c_s27507_INTELLIJ/PacmanModel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GUI_DZ_2223L_PRO2_GR17c_s27507_INTELLIJ/PacmanModel$Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GUI_DZ_2223L_PRO2_GR17c_s27507_INTELLIJ/PacmanModel$Direction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GUI_DZ_2223L_PRO2_GR17c_s27507_INTELLIJ/PacmanModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GUI_DZ_2223L_PRO2_GR17c_s27507_INTELLIJ/PacmanModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scores.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collision.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameBoardModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameBoardModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameBoardView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameBoardView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HighScoresView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HighScoresView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Maze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MenuView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenuView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PacmanModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PacmanModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThreadsInitiator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreadsInitiator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,25 +38,34 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2PC9I1jUHaRdkk8VIt6l128V4gI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/MOBBYN/Desktop/studia/semestr 2/GUI/ĆWICZENIA/GUI_DZ_2223L_PRO2_GR17c_s27507_INTELLIJ&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/MOBBYN/Desktop/studia/semestr 2/GUI/ĆWICZENIA/GUI_DZ_2223L_PRO2_GR17c_s27507_INTELLIJ",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MOBBYN\Desktop\studia\semestr 2\GUI\ĆWICZENIA\GUI_DZ_2223L_PRO2_GR17c_s27507_INTELLIJ" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -74,12 +107,23 @@
       <workItem from="1684155718004" duration="851000" />
       <workItem from="1684222372562" duration="31475000" />
       <workItem from="1684307782905" duration="38870000" />
-      <workItem from="1684393036273" duration="15938000" />
+      <workItem from="1684393036273" duration="21437000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

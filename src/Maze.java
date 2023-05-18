@@ -134,7 +134,4 @@ class Maze {
     }
 
 
-// x - kolumny
-    //y - wierzse
-
 }

@@ -34,16 +34,7 @@ class Collision {
         return collisionMap;
     }
 
-    public static boolean isCollisionClose(PacmanModel.Direction direction,Point p){
-        Point movedPoint = switch(direction){
-            case UP:yield Move.moveUp(p);
-            case DOWN:yield Move.moveDown(p);
-            case LEFT:yield Move.moveLeft(p);
-            case RIGHT:yield Move.moveRight(p);
-        };
 
-        return isCollision(movedPoint);
-    }
     public static void bulkCollisionCreate(Point[] points){
         for(Point p : points){
             new Collision(p);

@@ -149,7 +149,7 @@ public class ThreadsInitiator {
                         }
                         if(pacman.getModel().getPoweredUpSecondsLeft()<1){
                             for(Opponent o: Opponent.getOpponents().values()){
-                               if(o!=null) o.getView().setColor(o.getView().getBaseColor());
+                               if(o!=null)o.getView().setColor(o.getView().getBaseColor());
                                 if(o!=null)o.getModel().setEatable(false);
                             }
                         }
